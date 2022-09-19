@@ -148,6 +148,7 @@ h3{
 }
 .border{
     border: 2px solid #333;
+    margin-bottom: 30px;
 }
 .right-content{
     padding: 1rem;
@@ -186,6 +187,12 @@ h3{
 @media screen and (max-width:900px) {
     .container{
         padding: 1rem;
+    }
+    .grid{
+        gap: 0;
+    }
+    .h-title{
+        font-size: 3rem;
     }
     .right-side,.left-side {
         grid-column: 1 /  -1;
